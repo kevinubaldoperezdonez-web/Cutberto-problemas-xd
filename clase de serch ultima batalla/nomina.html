@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nominas xd</title>
+    <link rel="stylesheet" href="css/papaya.css">
+    <script src="JS/nomina.js" defer></script>
+</head>
+<body>
+    <div class="contenedor">
+
+        <h2>sistema de nomina</h2>
+        <form id="miFormulario">
+
+            <input type="text" id="nombre" placeholder="nombre del empleado">
+
+            <input type="number" id="horas" placeholder="horas trabajadas" min="1">
+
+            <input type="number" id="pago" placeholder="pago por hora" min="1" step="0.01">
+
+            <button type="submit">Calcular salario</button>
+
+            <div id="resultado" class="resultado"></div>
+
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+h1 {
+    color :red;
+    text-align: center;
+    font-size: 90px;
+    font-style: italic;
+     -webkit-text-stroke: 1.5px yellow;
+}
+h2 {
+    color:yellow;
+    text-align: left;
+    font-size: 60px;
+    font-style: italic;
+    -webkit-text-stroke: 1.5px red;
+
+
+}
+body {
+    background-image: url(/imagenesdeproyectos/fondo.png);
+}
+
+.baner {
+    position: relative;
+    top: -200px;
+    width: 40%;
+}
+p {
+    width: 57%;
+    font-size: 30px;
+    text-align: left;
+}
+h3 {
+    color :yellow;
+    size: 200px;
+    -webkit-text-stroke: 2px red;
+}
+.wanabana ul {
+    display: flex;
+    list-style: none;
+    gap: 45px;
+}
+ .panaderia{
+    display: block;
+    margin: 0 auto;
+}

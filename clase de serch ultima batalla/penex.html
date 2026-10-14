@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>promedio</title>
+    <link rel="stylesheet" href="css/papaya.css">
+    <script src="JS/penex.js" defer></script>
+</head>
+<body>
+    <div class="contenedor">
+
+        <h2>penex</h2>
+        <form id="miformulario">
+
+
+            <p>Ingresa los datos de tu pichi compra:</p>
+            <input type="text" id="nombre" placeholder="nombre del chofer bien vergas">
+            <input type="number" id="distancia" placeholder="distancia de corrida (km)" min="1">
+            <input type="number" id="litros" placeholder="litros utilizados" min="0.1" step="0.1">
+            <input type="number" id="precio" placeholder="precio por litro" min="0.01" step="0.01">
+            <select id="gas">
+                <option value="">
+                Selecciona tipo de gasolina de penex
+                </option>
+
+                <option value="Magna">Magna</option>
+
+                <option value="Diesel">Diesel</option>
+
+                <option value="Premium">Premium</option>
+
+                <option value="coca de pina">coca de pina xd</option>
+
+            </select>
+
+            <button type="submit">Calcular gasolina</button>
+
+            <div id="resultado" class="resultado"></div>
+
+        </div>
+
+    </form>
+</body>
+</html>
